@@ -6,7 +6,7 @@ const NUM_PARTICULAS = 150;
 function preload() {
   // Carga el archivo de audio antes de iniciar el sketch
   soundFormats('mp3', 'wav');
-  audio = loadSound('Viento.mp3');
+  audio = loadSound('viento.mp3');
 }
 
 function setup() {
